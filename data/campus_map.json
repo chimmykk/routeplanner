@@ -1,0 +1,121 @@
+{
+  "locations": {
+    "Main Gate": [
+      0,
+      0
+    ],
+    "Admin Block": [
+      30,
+      10
+    ],
+    "Library": [
+      60,
+      15
+    ],
+    "CSE Block": [
+      55,
+      45
+    ],
+    "AI Lab": [
+      85,
+      55
+    ],
+    "Cafeteria": [
+      35,
+      55
+    ],
+    "Auditorium": [
+      10,
+      65
+    ],
+    "Hostel": [
+      100,
+      15
+    ],
+    "Sports Ground": [
+      5,
+      100
+    ],
+    "Parking": [
+      -20,
+      15
+    ]
+  },
+  "edges": [
+    [
+      "Main Gate",
+      "Admin Block",
+      32
+    ],
+    [
+      "Main Gate",
+      "Parking",
+      23
+    ],
+    [
+      "Main Gate",
+      "Cafeteria",
+      67
+    ],
+    [
+      "Admin Block",
+      "Library",
+      31
+    ],
+    [
+      "Admin Block",
+      "Cafeteria",
+      47
+    ],
+    [
+      "Library",
+      "CSE Block",
+      32
+    ],
+    [
+      "Library",
+      "Hostel",
+      45
+    ],
+    [
+      "CSE Block",
+      "AI Lab",
+      34
+    ],
+    [
+      "CSE Block",
+      "Cafeteria",
+      34
+    ],
+    [
+      "AI Lab",
+      "Hostel",
+      48
+    ],
+    [
+      "Cafeteria",
+      "Auditorium",
+      29
+    ],
+    [
+      "Auditorium",
+      "Sports Ground",
+      36
+    ],
+    [
+      "Parking",
+      "Auditorium",
+      72
+    ],
+    [
+      "Sports Ground",
+      "Cafeteria",
+      58
+    ],
+    [
+      "Admin Block",
+      "Auditorium",
+      62
+    ]
+  ]
+}

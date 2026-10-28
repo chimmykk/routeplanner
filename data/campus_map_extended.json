@@ -1,0 +1,195 @@
+{
+  "locations": {
+    "Main Gate": [
+      0,
+      0
+    ],
+    "Security & Visitors Center": [
+      15,
+      10
+    ],
+    "Admin Block": [
+      35,
+      15
+    ],
+    "Central Library": [
+      65,
+      20
+    ],
+    "CSE & AI Building": [
+      60,
+      55
+    ],
+    "Robotics & Electronics Lab": [
+      90,
+      65
+    ],
+    "Innovation & Research Park": [
+      115,
+      45
+    ],
+    "Student Cafeteria": [
+      35,
+      60
+    ],
+    "University Auditorium": [
+      10,
+      70
+    ],
+    "Health & Medical Center": [
+      -15,
+      50
+    ],
+    "Sports Complex & Stadium": [
+      5,
+      110
+    ],
+    "Hostel Block A (North)": [
+      105,
+      20
+    ],
+    "Hostel Block B (South)": [
+      110,
+      -10
+    ],
+    "Dining Hall": [
+      90,
+      5
+    ],
+    "Multi-level Parking": [
+      -25,
+      15
+    ],
+    "Amphitheatre": [
+      40,
+      90
+    ]
+  },
+  "edges": [
+    [
+      "Main Gate",
+      "Security & Visitors Center",
+      18
+    ],
+    [
+      "Main Gate",
+      "Multi-level Parking",
+      28
+    ],
+    [
+      "Security & Visitors Center",
+      "Admin Block",
+      22
+    ],
+    [
+      "Multi-level Parking",
+      "Health & Medical Center",
+      38
+    ],
+    [
+      "Health & Medical Center",
+      "University Auditorium",
+      32
+    ],
+    [
+      "Admin Block",
+      "Central Library",
+      32
+    ],
+    [
+      "Admin Block",
+      "Student Cafeteria",
+      48
+    ],
+    [
+      "Central Library",
+      "CSE & AI Building",
+      36
+    ],
+    [
+      "Central Library",
+      "Hostel Block A (North)",
+      42
+    ],
+    [
+      "CSE & AI Building",
+      "Robotics & Electronics Lab",
+      32
+    ],
+    [
+      "CSE & AI Building",
+      "Student Cafeteria",
+      27
+    ],
+    [
+      "Robotics & Electronics Lab",
+      "Innovation & Research Park",
+      33
+    ],
+    [
+      "Innovation & Research Park",
+      "Hostel Block A (North)",
+      29
+    ],
+    [
+      "Hostel Block A (North)",
+      "Dining Hall",
+      22
+    ],
+    [
+      "Hostel Block A (North)",
+      "Hostel Block B (South)",
+      32
+    ],
+    [
+      "Dining Hall",
+      "Hostel Block B (South)",
+      26
+    ],
+    [
+      "Student Cafeteria",
+      "University Auditorium",
+      28
+    ],
+    [
+      "Student Cafeteria",
+      "Amphitheatre",
+      32
+    ],
+    [
+      "University Auditorium",
+      "Amphitheatre",
+      38
+    ],
+    [
+      "University Auditorium",
+      "Sports Complex & Stadium",
+      42
+    ],
+    [
+      "Amphitheatre",
+      "Sports Complex & Stadium",
+      40
+    ],
+    [
+      "Security & Visitors Center",
+      "Multi-level Parking",
+      42
+    ],
+    [
+      "Central Library",
+      "Dining Hall",
+      32
+    ],
+    [
+      "Admin Block",
+      "University Auditorium",
+      60
+    ],
+    [
+      "Student Cafeteria",
+      "Robotics & Electronics Lab",
+      56
+    ]
+  ]
+}
